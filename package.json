@@ -1,0 +1,23 @@
+{
+  "name": "microservice-timestamp-freecodecamp",
+  "version": "1.0.0",
+  "description": "Code for TimeStamp Microservice Challenge on Free Code Camp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caype/timestamp-microService-Free-Code-Camp.git"
+  },
+  "author": "Chaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caype/timestamp-microService-Free-Code-Camp/issues"
+  },
+  "homepage": "https://github.com/caype/timestamp-microService-Free-Code-Camp#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
