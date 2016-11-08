@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var port = process.env.PORT;
+var port = process.env.PORT || 8080;
 var Months=["","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 app.get('/:targetDate?',function(req,res){
