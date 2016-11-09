@@ -17,7 +17,7 @@ app.get('/:targetDate?',function(req,res){
             res.send({"unix":dateTime.getTime()/1000,"Natural":NaturalDate});
         }
     }else{
-        res.send({'Try The Following User Stories':{"1":"https://learn-something-new-chayakrishnaprasad.c9users.io/1478563200","2":"https://learn-something-new-chayakrishnaprasad.c9users.io/November%208,%202016"}});
+        res.send({'Try The Following User Stories':{"1":"https://murmuring-waters-37174.herokuapp.com/1478563200","2":"https://murmuring-waters-37174.herokuapp.com/November%208,%202016"}});
     }
     
 });
